@@ -78,11 +78,10 @@ $faq= [
     <main>
         <div class="wrapper">
         <?php 
-        foreach($faq as $chiave ){ ?>
+        foreach($faq as $valore){ ?>
 
-        <h1> <?php echo ($chiave)["survay"]; ?></h1>    
-
-        <p> <?php echo($chiave)["answer"]; ?>  </p>    
+            <h1> <?php echo ($valore)["survay"]; ?></h1>    
+            <p> <?php echo($valore)["answer"]; ?>  </p>
         <?php }?>
         </div>
         
